@@ -1,4 +1,4 @@
-sounds = ['applause', 'boo', 'gasp', 'tada', 'victory', 'wrong']
+sounds = ['Applause', 'Boo', 'Gasp', 'Tada', 'Victory', 'Wrong']
 
 
 sounds.forEach(sound => {

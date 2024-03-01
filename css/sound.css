@@ -10,4 +10,16 @@ body {
     justify-content: center;
     margin: 0;
     background-color:purple;
+    container:
+}
+
+.btn{
+    position:center;
+    font-size: 18px;
+    background-color: Magenta;
+    cursor: pointer;
+    color: black;
+    padding:10;
+    margin:8px;
+    border:2px solid purple;
 }
