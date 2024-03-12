@@ -9,7 +9,5 @@ function wakeUp() {
     var background = document.querySelector(".background");
     button.disabled = true;
     button.style.opacity = "0";
-    image.style.transition = "opacity 2s";
     background.style.opacity = "1";
-    image.style.opacity = "0"; setTimeout(function() { links.style.display = "block"; }, 2000);
-}
+    image.style.transition = "opacity 2s"; image.style.opacity = "0"; image.addEventListener("transitionend", function() { links.style.display = "block"; }, { once: true }); }
