@@ -7,4 +7,9 @@ function wakeUp() {
     var image = document.getElementById("image");
     var links = document.getElementById("links");
     button.disabled = true;
-    button.style.opacity = "0"; // Optional: hide the button image.style.transition = "opacity 2s"; image.style.opacity = "0"; image.style.backgroundColor = "black"; // Set background color to black setTimeout(function() { links.style.display = "block"; }, 2000); // 2 seconds }
+    button.style.opacity = "0";
+    image.style.transition = "opacity 2s";
+    image.style.opacity = "0";
+    image.style.backgroundColor = "black";
+    setTimeout(function() { links.style.display = "block"; }, 2000);
+ }
