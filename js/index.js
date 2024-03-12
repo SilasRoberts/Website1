@@ -11,5 +11,4 @@ function wakeUp() {
     image.style.transition = "opacity 2s";
     image.style.opacity = "0";
     image.style.backgroundColor = "black";
-    setTimeout(function() { links.style.display = "block"; }, 2000);
- }
+    setTimeout(function() { links.style.display = "block"; }, 2000); }
