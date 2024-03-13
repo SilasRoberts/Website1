@@ -29,3 +29,10 @@ body{
     filter: blur(30px);
 
 }
+.gohome{
+    position :absolute;
+    z-index:999;
+    top:0;
+    left:0;
+    color:red;
+}
