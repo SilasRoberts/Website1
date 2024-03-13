@@ -52,7 +52,7 @@ body {
 .search.active .btn{
     transform: translateX(198px)
 }
-.link{
+.gohome{
     position :absolute;
     z-index:999;
     top:0;
