@@ -45,9 +45,11 @@ body {
     display: none;
 }
 
-#links a {
+#link a {
     display: block;
     margin-bottom: 10px;
     font-size: 18px;
     color:red;
+    top:0;
+    left:0;
 }
