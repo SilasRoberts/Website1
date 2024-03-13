@@ -109,3 +109,9 @@ body {
     color:rgb(192, 57, 43);
     font-weight:bold;
 }
+.gohome{
+    position :absolute;
+    z-index:999;
+    top:0;
+    left:0;
+    color:red;}
