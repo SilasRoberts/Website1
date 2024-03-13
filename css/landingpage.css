@@ -187,3 +187,10 @@ button, input[type ='submit'] {
     background: transparent;
     font-size: 25px;
 }
+.gohome{
+    position :absolute;
+    z-index:999;
+    top:0;
+    left:0;
+    color:red;}
+
