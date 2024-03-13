@@ -49,4 +49,6 @@ body {
     display: block;
     margin-bottom: 10px;
     font-size: 18px;
+    top:0;
+    left:0;
 }
