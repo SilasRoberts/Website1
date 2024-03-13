@@ -10,4 +10,4 @@ function wakeUp() {
     button.disabled = true;
     button.style.opacity = "0";
     background.style.opacity = "1";
-    image.style.transition = "opacity 2s"; image.style.opacity = "0"; image.addEventListener("transitionend", function() { links.style.display = "block"; }, { once: true }); }
+    image.style.transition = "opacity 2s"; image.style.opacity = "0"; image.addEventListener("transitionend", function() { links.classList.toggle = "block"; }, { once: true }); }
